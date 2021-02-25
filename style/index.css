@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Roboto+Mono:wght@200;300&display=swap');
-
 del, dfn, em, img, ins, kbd, q, s, samp,  
 small, strike, strong, sub, sup, tt, var,  
 b, u, i, center,  
@@ -137,3 +136,131 @@ p {
   text-decoration: none;
   color: white;
 }
+
+/*max-width 800px and below.*/
+@media (max-width: 800px) {
+  h1 {
+    font-size: 4em;
+    margin: 2%;
+    text-align: center;
+    padding-left: 0px;
+  }
+  
+  .head {
+    height: 100%;
+    background: white;
+  }
+  
+  .top {
+    padding: 2%;
+    text-align: center;
+    align-items: stretch;
+    flex-direction: column;
+    font-size: 100%;
+    margin: auto 25%;
+  }
+  
+  .top a {
+    padding: 6% 0;
+  }
+  
+  .intro {
+    text-align: center;
+    max-width: none;
+  }
+  
+  .intro p {
+    padding: 3%;
+    font-size: 1.2em;
+  }
+  
+  .sec1 {
+    display: block;
+    padding: 1% 5%;
+  }
+  
+  .mainimg {
+    height: 50%;
+    width: 100%;
+  }
+  
+  h2 {
+    padding: 0%;
+  }
+  
+  .intro nav a {
+    padding: 2% 4%
+  }
+  
+  ul {
+    padding: 4% 2%;
+    justify-content: space-evenly;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  ul li p {
+    padding-bottom: 1%;
+  }
+  
+  .bottom {
+    height: 10em;
+  }
+}
+
+/*max-width 500px and below*/
+@media (max-width: 500px) {
+  .sec1 {
+    padding: 0%;
+  }
+  
+  .intro {
+    margin: 0%;
+  }
+ 
+  .mainimg {
+    padding: 4% 0%;
+  }
+  
+  h2 {
+    margin: 5%;
+  }
+  
+  ul {
+    padding: 10% 10% 0% 10%;
+  }
+  .bottom {
+    padding: 5%;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+}
+
+/*Stretch Goals*/
+
+/* Iphone  360x640*/
+@media (min-width: 360px) and (max-width: 640px) {
+  .bottom {
+    height: 9em;
+  }
+  
+  .intro p {
+    text-align: justify;
+  }
+}
+
+/* 320px and below*/
+@media (max-width: 320px) {
+  .intro p {
+    padding: 0%;
+  }
+}
+
+/* Verified page responsive to  
+  iPhone: 360×640
+  Laptop: 1366×768
+  Widescreen: 1920×1080 */
